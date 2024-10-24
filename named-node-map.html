@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img id="logo" src="https://static.vecteezy.com/system/resources/previews/027/127/436/original/nfl-logo-nfl-icon-transparent-free-png.png" alt="RAI logo">
+
+    <script>
+        const logo = document.getElementById("logo");
+        const attributes = logo.attributes;
+
+        for(let attribute of attributes){
+            console.info(`${attribute.name} : ${attribute.value}`);
+        }
+
+        console.info(src.name);
+        console.info(src.value); 
+    </script>
+</body>
+</html>
